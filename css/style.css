@@ -149,3 +149,13 @@ ul {
         grid-row: 2 / 4;
     } */
 }
+
+/*responssive layout with out query  */
+
+.container-4 {
+  display: grid;
+  /* height: 100vh; */
+  gap: 24px;
+
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
